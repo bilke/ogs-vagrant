@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+# cookbook 'apache2', '>= 1.0.0'
+
+cookbook 'apt',
+	git: 'https://github.com/fnichol/chef-apt'
+
+cookbook 'git',
+	git: 'https://github.com/fnichol/chef-git.git'
+
+cookbook 'build-essential'
+
+#cookbook 'rvm',
+#	:git => 'https://github.com/fnichol/chef-rvm', :ref => 'v0.9.0'
+
+
+cookbook 'ogs',
+	:path => '../mycookbooks/ogs'
