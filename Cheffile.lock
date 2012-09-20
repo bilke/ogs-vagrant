@@ -5,6 +5,13 @@ SITE
     runit (0.15.0)
 
 GIT
+  remote: https://github.com/bilke/ogs-cookbook.git
+  ref: master
+  sha: 4917cc3f5843e409f1bc0b21538f76249a0a7285
+  specs:
+    ogs (0.0.1)
+
+GIT
   remote: https://github.com/fnichol/chef-apt
   ref: master
   sha: cb998dfdeffbcbb6805527b046b411206d6c77d6
@@ -18,11 +25,6 @@ GIT
   specs:
     git (0.9.0)
       runit (>= 0.0.0)
-
-PATH
-  remote: ../mycookbooks/ogs
-  specs:
-    ogs (0.0.1)
 
 DEPENDENCIES
   apt (>= 0)

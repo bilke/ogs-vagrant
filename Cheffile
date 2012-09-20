@@ -20,4 +20,4 @@ cookbook 'build-essential'
 
 
 cookbook 'ogs',
-	:path => '../mycookbooks/ogs'
+	:git => 'https://github.com/bilke/ogs-cookbook.git'
