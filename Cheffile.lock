@@ -1,13 +1,13 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
-    build-essential (1.0.0)
+    build-essential (1.1.2)
     runit (0.15.0)
 
 GIT
   remote: https://github.com/bilke/ogs-cookbook.git
   ref: master
-  sha: 4917cc3f5843e409f1bc0b21538f76249a0a7285
+  sha: 078b958c744e8a8d6a49fa3095e836d17ef9399e
   specs:
     ogs (0.0.1)
 
