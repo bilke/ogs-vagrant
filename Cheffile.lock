@@ -10,7 +10,7 @@ SITE
 GIT
   remote: https://github.com/bilke/ogs-cookbook.git
   ref: master
-  sha: 34f10b0b1ee4df378a55d45fc05d3633a14bcad3
+  sha: f17c622a3a2b11f9d569d29930940f3200cf6cd0
   specs:
     ogs (0.0.1)
 
