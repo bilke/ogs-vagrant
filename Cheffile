@@ -13,6 +13,9 @@ cookbook 'apt',
 cookbook 'git',
 	git: 'https://github.com/fnichol/chef-git.git'
 
+cookbook 'subversion',
+	git: 'https://github.com/opscode-cookbooks/subversion.git'
+
 cookbook 'build-essential'
 
 #cookbook 'rvm',

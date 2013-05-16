@@ -1,10 +1,14 @@
 SITE
   remote: http://community.opscode.com/api/v1
   specs:
+    apache2 (1.6.2)
     build-essential (1.4.0)
+    chef_handler (1.1.4)
     runit (1.1.4)
       build-essential (>= 0.0.0)
       yum (>= 0.0.0)
+    windows (1.8.10)
+      chef_handler (>= 0.0.0)
     yum (2.2.0)
 
 GIT
@@ -29,9 +33,19 @@ GIT
     git (0.9.0)
       runit (>= 0.0.0)
 
+GIT
+  remote: https://github.com/opscode-cookbooks/subversion.git
+  ref: master
+  sha: 5076bed21dc69bdde2b7cb528ab9ad05bf6fdf4f
+  specs:
+    subversion (1.0.3)
+      apache2 (>= 0.0.0)
+      windows (>= 0.0.0)
+
 DEPENDENCIES
   apt (>= 0)
   build-essential (>= 0)
   git (>= 0)
   ogs (>= 0)
+  subversion (>= 0)
 
